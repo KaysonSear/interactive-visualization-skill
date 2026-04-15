@@ -28,6 +28,28 @@ This skill helps Claude Code generate interactive visualizations based on your n
 | "Compare these options" | Card grid layout |
 | "Build a dashboard" | Metric cards + charts |
 
+## 🎯 给你的Agent使用
+
+复制以下提示词发送给你的Agent，即可快速安装并使用本Skill：
+
+```
+请安装并使用 interactive-visualization skill：
+
+npx skills install KaysonSear/interactive-visualization-skill
+
+然后帮我创建一个交互式数据可视化。
+```
+
+或者更详细的版本：
+
+```
+请安装 KaysonSear/interactive-visualization-skill 这个skill：
+
+npx skills install KaysonSear/interactive-visualization-skill
+
+安装完成后，请使用这个skill帮我：[描述你的需求，例如"创建一个展示2024年月度销售额的柱状图"]
+```
+
 ## 📊 Supported Visualizations
 
 ### Chart.js Charts
